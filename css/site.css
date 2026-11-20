@@ -457,3 +457,6 @@ li > ul, li > ol { margin-top: 0.35rem; margin-bottom: 0.35rem; }
 .band-games .app-status { background: #1a1f2e; }
 .band-games .app-status-label { color: #22d3ee; }
 .band-games .app-shots figcaption, .band-games .fine-print { color: #b7c0d0; }
+.brand-index-label { margin: 0 0 0.3rem; font-size: 0.95rem; font-weight: 700; color: var(--ink); }
+.brand-index + .brand-index-label { margin-top: -1.4rem; }
+.group-heading { margin-top: 2.75rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
