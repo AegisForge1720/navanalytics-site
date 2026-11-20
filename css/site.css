@@ -421,3 +421,39 @@ li > ul, li > ol { margin-top: 0.35rem; margin-bottom: 0.35rem; }
 .page-games .band-games { margin-top: 1.25rem; }
 
 .company-address { font-style: normal; margin: 0 0 1rem; }
+
+/* App status cards (apps-status-2026-11-20) */
+.app-status {
+  font-size: 0.95rem;
+  background: var(--bg-alt);
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+}
+.app-status-label { font-weight: 700; color: var(--accent); }
+.app-shots {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 0 0 0.9rem;
+  max-width: 30rem;
+}
+.app-shots figure { margin: 0; }
+.app-shots img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #0c0e16;
+}
+.app-shots figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.3rem; }
+.house-lines {
+  margin: 0.75rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+.house-lines p { margin: 0 0 0.25rem; }
+.house-lines p:last-child { margin-bottom: 0; }
+.band-games .app-status { background: #1a1f2e; }
+.band-games .app-status-label { color: #22d3ee; }
+.band-games .app-shots figcaption, .band-games .fine-print { color: #b7c0d0; }
